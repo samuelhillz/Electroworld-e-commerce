@@ -1,0 +1,54 @@
+.table {
+  width: 70%;
+  /* overflow-x: auto; */
+}
+  .search {
+    width: 100%;
+    max-width: 300px;
+  }
+  .all-product{
+    text-align: center;
+    margin: 0 0 40px 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.2rem;
+  }
+    th {
+      border: 1px solid #eee;
+    }
+
+    td {
+      vertical-align: top;
+      text-align: left;
+      padding: 8px;
+      
+    }
+    tH {
+      vertical-align: top;
+      text-align: left;
+      padding: 8px;
+      
+    }
+    .adminicons {
+        
+          margin-right: 5px;
+          cursor: pointer;
+        
+      }
+
+    tr {
+      border-bottom: 1px solid #ccc;
+    }
+
+    tr:nth-child(even) {
+      background-color: #eee;
+    }
+     @media screen and (max-width: 1000px) {
+      .admin-cats{
+        display: none;
+      }
+     }
+  

@@ -1,0 +1,67 @@
+.admincard {
+    width: 100%;
+    padding: 1rem;
+}
+.admincard form{
+    position: relative;
+}
+.admincard ::placeholder{
+    position: absolute;
+    left: 19px;
+}
+.forms {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.prod-add{
+    font-size: 29px;
+    text-align: center;
+    margin: 10px;
+}
+.flexx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+ label {
+      display: block;
+     padding: 0;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+input{
+      display: block;
+      font-size: 1.1rem;
+      font-weight: 300;
+      padding: 1rem;
+      margin: 0.6rem auto;
+      width: 100%;
+      border: 1px solid #777;
+      border-radius: 3px;
+      outline: none;
+    }
+.select{
+     display: block;
+      font-size: 1.1rem;
+      font-weight: 300;
+      padding: 1rem;
+      margin: 0.6rem auto;
+      width: 100%;
+      border: 1px solid #777;
+      border-radius: 3px;
+      outline: none;
+
+}
+.adminproduct button{
+    margin-top: 20px;
+    padding: 10px 26px;
+    font-size: 17px;
+}
+ 
+textarea {
+     width: 100%;
+     }
+ 

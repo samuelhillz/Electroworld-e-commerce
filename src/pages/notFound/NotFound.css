@@ -1,0 +1,15 @@
+.notfound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    flex-direction: column;
+}
+.notfound h2{
+    font-size: 45px;
+}
+.notfound button{
+    padding: 5px 13px;
+    background: #F5F5F5;
+    border: none;
+}

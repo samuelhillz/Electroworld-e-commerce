@@ -1,0 +1,154 @@
+.table {
+  padding: 5px;
+  width: 100%;
+  overflow-x: auto;
+}
+.cart-banner{
+  
+  max-width: 1700px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 3px;
+}
+.table table tr{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.empty-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+}
+.emptyCart{
+    font-size: 20px;
+}
+.backToShopping{
+    position: relative;
+    bottom: 15px;
+}
+ table {
+    border-collapse: collapse;
+     box-shadow: 0 4px 8px 0 rgba(71, 71, 71, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    font-size: 1.3rem;
+ }
+ .table-ctn{
+    max-width: 1050px;
+    margin: 0 auto;
+ }
+ .cart-spacing{
+  margin-bottom: 90px;
+ }
+
+ thead {
+      border-bottom: 2px solid rgb(104, 104, 106);
+    }
+    .cart-banner{
+        background-color:  #F5F5F5;
+        height: 30vh;
+        vertical-align: middle;
+        margin-bottom: 50px;
+
+    }
+    .cart-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+    }
+
+ th {
+      border: 1px solid #eee;
+    }
+
+    th,
+    td {
+      vertical-align: top;
+      text-align:center;
+      padding: 2px;
+      vertical-align: middle;
+    }
+    .icons {
+        
+          margin-right: 5px;
+          cursor: pointer;
+        
+      }
+    
+
+    tr {
+      border-bottom: 1px solid #ccc;
+    }
+
+    tr:nth-child(even) {
+      background-color: #eee;
+    }
+  
+  .summary {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+  }
+  .cartQty{
+    margin-right: 5px;
+  }
+.trash{
+    cursor: pointer;
+}
+.card {
+      padding: 1rem;
+}
+.text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+ }
+ 
+   button {
+        margin-top: 5px;
+      }
+    .summary button{
+        padding: 10px 25px;
+        font-size: 17px;
+         background-color: red;
+         transition: 0.3s ease-in-out;
+         border-radius: 5px;
+         color: white;
+    }
+    .summary button:hover{
+        letter-spacing: 1px;
+        background-color: red;
+    }
+    .checking-out{
+        padding: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        
+    }
+.count button{
+    border: 1px solid black;
+    padding: 3px 5px;
+    text-align: center;
+}
+ button {
+    border: 1px solid #777;
+  }
+  @media screen and (max-width:700px){
+    th,td{
+      font-size: 15px;
+    }
+      .summary {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  }

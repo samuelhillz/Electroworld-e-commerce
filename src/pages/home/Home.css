@@ -1,0 +1,23 @@
+.home-banner{
+  width: 100vw;
+  height: 88vh;
+  position: relative;
+ 
+}
+
+.banner-info{
+    position: absolute;
+    top: 0;
+    left: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+@media screen and (max-width:900px){
+    .home-banner{
+        width: 100vw;
+    }
+}

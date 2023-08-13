@@ -1,0 +1,27 @@
+.navbaradmin {
+  border: 1px solid #ccc;
+  min-height: 100vh;
+}
+.navbaradmin nav{
+  position: relative;
+  top: 35px;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem;
+
+}
+ h4 {
+      color: #fff;
+    }
+
+ li {
+      padding: 1rem;
+      position: relative;
+      
+     
+    }
+

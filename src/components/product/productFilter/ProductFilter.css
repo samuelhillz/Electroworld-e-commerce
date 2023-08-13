@@ -1,0 +1,87 @@
+.productFilter{
+    position: relative;
+    top: 13px;
+}
+
+.productCategory{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.productCategory button{
+    padding: 5px;
+    font-size: 1rem;
+
+}
+.category button {
+    display: block;
+    text-align: left;
+    width: 80%;
+    height: 3rem;
+    font-size: 1.7rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #777;
+  }
+
+  .prod-brand{
+    margin:20px 0 10px 0;
+    
+  }
+   h4 {
+    margin-top: 1rem;
+  }
+
+select {
+      font-size: 1rem;
+      font-weight: 500;
+      width: 100%;
+      padding: 10px;
+      width: 90%;
+      border: 1px solid #777;
+      border-radius: 3px;
+      outline: none;
+      background-color: #f5f3f3;
+    }
+
+    .btn_clearFilter{
+        margin-top: 20px;
+        padding: 10px 25px;
+        font-size: 1.1rem;
+        transition: 0.3s ease-in-out;
+    }
+    .btn_clearFilter:hover{
+        letter-spacing: 1px;
+         color: rgb(255, 95, 37);
+     }
+
+@media screen and (max-width: 700px) {
+   .category button {
+      width: 100%;
+    }
+     select {
+        width: 100%;
+      }
+}
+
+.actives {
+  position: relative;
+  margin-bottom: 2px;
+  padding-left: 0.6rem;
+}
+
+.actives::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  height: 100%;
+  background-color: rgb(255, 95, 37);
+}

@@ -1,0 +1,41 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Segoe UI, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+section{
+  width: 100%;
+  padding: 4rem 0;
+}
+.container{
+  max-width:880px;
+  margin: 0 auto;
+}
+.container2{
+  max-width:1080px;
+  margin: 0 auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+li{
+  font-size: 17px;
+  list-style-type: none;
+  
+}
+button{
+  border-radius: 3px;
+}

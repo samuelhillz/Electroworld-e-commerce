@@ -1,0 +1,14 @@
+.admin {
+  display: flex;
+  margin-top: 30px;
+  
+}
+.adminnavbar {
+    width: 20%;
+    min-height: 80vh;
+  }
+.admincontent {
+    width: 80%;
+    padding: 1rem;
+    margin: 0 0 50px 0;
+  }

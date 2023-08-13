@@ -1,0 +1,16 @@
+.search {
+  margin: 5px 0;
+  position: relative;
+  flex: 1;
+}
+ .search input {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1rem auto;
+    width: 100%;
+    border: 1px solid #777;
+    border-radius: 3px;
+    outline: none;
+    background-color: #f5f3f3;
+  }
+  
